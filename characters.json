@@ -7,18 +7,15 @@
       "characters": [
         {
           "name": "Assassin",
-          "description": "Deadly operatives skilled in eliminating targets swiftly and silently.",
-          "image": "https://example.com/assassin_image.jpg"
+          "description": "Deadly operatives skilled in eliminating targets swiftly and silently."
         },
         {
           "name": "Thief",
-          "description": "Masters of theft and deception, adept at disarming traps and picking locks.",
-          "image": "https://example.com/thief_image.jpg"
+          "description": "Masters of theft and deception, adept at disarming traps and picking locks."
         },
         {
           "name": "Swashbuckler",
-          "description": "Daring duelists known for their acrobatic prowess and flashy swordplay.",
-          "image": "https://example.com/swashbuckler_image.jpg"
+          "description": "Daring duelists known for their acrobatic prowess and flashy swordplay."
         }
       ]
     },
@@ -29,18 +26,15 @@
       "characters": [
         {
           "name": "Minstrel",
-          "description": "Masters of music and magic, capable of enchanting audiences and manipulating emotions.",
-          "image": "https://example.com/minstrel_image.jpg"
+          "description": "Masters of music and magic, capable of enchanting audiences and manipulating emotions."
         },
         {
           "name": "Skald",
-          "description": "Warriors who combine the power of their voices with martial prowess on the battlefield.",
-          "image": "https://example.com/skald_image.jpg"
+          "description": "Warriors who combine the power of their voices with martial prowess on the battlefield."
         },
         {
           "name": "Loremaster",
-          "description": "Scholars and historians who use their knowledge to unravel mysteries and uncover secrets.",
-          "image": "https://example.com/loremaster_image.jpg"
+          "description": "Scholars and historians who use their knowledge to unravel mysteries and uncover secrets."
         }
       ]
     },
@@ -51,18 +45,15 @@
       "characters": [
         {
           "name": "Elementalist",
-          "description": "Sorcerers who manipulate the fundamental forces of nature to cast powerful spells.",
-          "image": "https://example.com/elementalist_image.jpg"
+          "description": "Sorcerers who manipulate the fundamental forces of nature to cast powerful spells."
         },
         {
           "name": "Necromancer",
-          "description": "Masters of death magic, able to raise the dead and command dark forces.",
-          "image": "https://example.com/necromancer_image.jpg"
+          "description": "Masters of death magic, able to raise the dead and command dark forces."
         },
         {
           "name": "Illusionist",
-          "description": "Experts in creating illusions and bending reality to confuse and mislead their enemies.",
-          "image": "https://example.com/illusionist_image.jpg"
+          "description": "Experts in creating illusions and bending reality to confuse and mislead their enemies."
         }
       ]
     },
@@ -73,18 +64,15 @@
       "characters": [
         {
           "name": "Knight",
-          "description": "Noble warriors who swear oaths of loyalty and defend the weak and innocent.",
-          "image": "https://example.com/knight_image.jpg"
+          "description": "Noble warriors who swear oaths of loyalty and defend the weak and innocent."
         },
         {
           "name": "Barbarian",
-          "description": "Fierce warriors who channel primal rage to unleash devastating attacks.",
-          "image": "https://example.com/barbarian_image.jpg"
+          "description": "Fierce warriors who channel primal rage to unleash devastating attacks."
         },
         {
           "name": "Paladin",
-          "description": "Holy champions dedicated to righteousness, wielding divine powers to smite evil.",
-          "image": "https://example.com/paladin_image.jpg"
+          "description": "Holy champions dedicated to righteousness, wielding divine powers to smite evil."
         }
       ]
     }

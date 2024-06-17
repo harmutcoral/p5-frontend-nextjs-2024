@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
 import data from "../characters.json";
 import { Button } from "../components/ui/button";
@@ -11,7 +10,7 @@ import {
 } from "../components/ui/card";
 
 export default function HomePage() {
-  const [characterClasses] = useState(data.characterClasses);
+  const characterClasses = data.characterClasses;
 
   return (
     <main className="p-4">
@@ -24,7 +23,7 @@ export default function HomePage() {
             {characterClasses.map((characterClass, index) => (
               <Link
                 key={index}
-                href={`/class/${characterClass.name.toLowerCase()}`}
+                href={`/details/${characterClass.name.toLowerCase()}`}
               >
                 <div className="flex flex-col items-center space-y-2 cursor-pointer">
                   <span className="text-blue-500 hover:underline p-4">
