@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import data from "../characters.json";
 import { Button } from "../components/ui/button";
