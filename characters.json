@@ -1,12 +1,92 @@
-[
-  {
-    "id": "1",
-    "name": "Character One",
-    "description": "Description of Character One"
-  },
-  {
-    "id": "2",
-    "name": "Character Two",
-    "description": "Description of Character Two"
-  }
-]
+{
+  "characterClasses": [
+    {
+      "name": "Rogue",
+      "lore": "Rogues are masters of stealth, agility, and cunning. They excel in covert operations, espionage, and precision strikes. Often seen as outlaws or mercenaries, rogues use their skills to navigate the shadows and manipulate situations to their advantage.",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f055b11-30d4-4a48-85a1-774dc8d792cd/dhctwta-dcea2452-f914-473d-a89f-271618270e7e.png/v1/fit/w_481,h_787/dark_elf_by_matteobenf_dhctwta-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg3IiwicGF0aCI6IlwvZlwvNmYwNTViMTEtMzBkNC00YTQ4LTg1YTEtNzc0ZGM4ZDc5MmNkXC9kaGN0d3RhLWRjZWEyNDUyLWY5MTQtNDczZC1hODlmLTI3MTYxODI3MGU3ZS5wbmciLCJ3aWR0aCI6Ijw9NDgxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.JlPItIM5ylXam26Yxvhj7khUd_YAnZCwyGMEiZeZKO0",
+      "characters": [
+        {
+          "name": "Assassin",
+          "description": "Deadly operatives skilled in eliminating targets swiftly and silently.",
+          "image": "https://example.com/assassin_image.jpg"
+        },
+        {
+          "name": "Thief",
+          "description": "Masters of theft and deception, adept at disarming traps and picking locks.",
+          "image": "https://example.com/thief_image.jpg"
+        },
+        {
+          "name": "Swashbuckler",
+          "description": "Daring duelists known for their acrobatic prowess and flashy swordplay.",
+          "image": "https://example.com/swashbuckler_image.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Bard",
+      "lore": "Bards are storytellers, musicians, and charismatic performers. They wield the power of music, magic, and persuasion to inspire allies, deceive enemies, and shape the course of events. Bards are versatile adventurers who thrive on creativity and charm.",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f055b11-30d4-4a48-85a1-774dc8d792cd/dg1uquv-3402828d-6a70-4904-92fc-e567a9c3019d.png/v1/fit/w_458,h_660/tavern_musician_by_matteobenf_dg1uquv-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjYwIiwicGF0aCI6IlwvZlwvNmYwNTViMTEtMzBkNC00YTQ4LTg1YTEtNzc0ZGM4ZDc5MmNkXC9kZzF1cXV2LTM0MDI4MjhkLTZhNzAtNDkwNC05MmZjLWU1NjdhOWMzMDE5ZC5wbmciLCJ3aWR0aCI6Ijw9NDU4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xMtxD-NPL4McWE2-N6Pf6Ni8HYyJrP90SOgOoBe-61Q",
+      "characters": [
+        {
+          "name": "Minstrel",
+          "description": "Masters of music and magic, capable of enchanting audiences and manipulating emotions.",
+          "image": "https://example.com/minstrel_image.jpg"
+        },
+        {
+          "name": "Skald",
+          "description": "Warriors who combine the power of their voices with martial prowess on the battlefield.",
+          "image": "https://example.com/skald_image.jpg"
+        },
+        {
+          "name": "Loremaster",
+          "description": "Scholars and historians who use their knowledge to unravel mysteries and uncover secrets.",
+          "image": "https://example.com/loremaster_image.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "lore": "Sorcerers are innate spellcasters, drawing their magical abilities from a powerful bloodline, a mysterious event, or an exotic locale. They have an instinctive grasp of magic and are capable of harnessing it in unique and unpredictable ways.",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f055b11-30d4-4a48-85a1-774dc8d792cd/dfx03is-db647ee1-98bb-4f63-9971-57f6d39bad7b.png/v1/fit/w_425,h_794/mage_by_matteobenf_dfx03is-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzk0IiwicGF0aCI6IlwvZlwvNmYwNTViMTEtMzBkNC00YTQ4LTg1YTEtNzc0ZGM4ZDc5MmNkXC9kZngwM2lzLWRiNjQ3ZWUxLTk4YmItNGY2My05OTcxLTU3ZjZkMzliYWQ3Yi5wbmciLCJ3aWR0aCI6Ijw9NDI1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.EErHmqc9t7nyVUfaGGdpkT5srZVv_e1XV5EVYmibLTI",
+      "characters": [
+        {
+          "name": "Elementalist",
+          "description": "Sorcerers who manipulate the fundamental forces of nature to cast powerful spells.",
+          "image": "https://example.com/elementalist_image.jpg"
+        },
+        {
+          "name": "Necromancer",
+          "description": "Masters of death magic, able to raise the dead and command dark forces.",
+          "image": "https://example.com/necromancer_image.jpg"
+        },
+        {
+          "name": "Illusionist",
+          "description": "Experts in creating illusions and bending reality to confuse and mislead their enemies.",
+          "image": "https://example.com/illusionist_image.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Warrior",
+      "lore": "Warriors are seasoned fighters, trained in martial skills and armed combat. They uphold honor, courage, and duty on the battlefield, serving as frontline protectors and champions of justice. Warriors come from diverse backgrounds but share a commitment to mastery of arms.",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f055b11-30d4-4a48-85a1-774dc8d792cd/dgat6x2-579f88db-ae84-4a44-9f5c-efc76bdebe64.png/v1/fit/w_476,h_797/warrior_by_matteobenf_dgat6x2-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzk3IiwicGF0aCI6IlwvZlwvNmYwNTViMTEtMzBkNC00YTQ4LTg1YTEtNzc0ZGM4ZDc5MmNkXC9kZ2F0NngyLTU3OWY4OGRiLWFlODQtNGE0NC05ZjVjLWVmYzc2YmRlYmU2NC5wbmciLCJ3aWR0aCI6Ijw9NDc2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.2nIEuWtQcUIbJN0BylqAX5SI6f7iagK2esquUm1bIM4",
+      "characters": [
+        {
+          "name": "Knight",
+          "description": "Noble warriors who swear oaths of loyalty and defend the weak and innocent.",
+          "image": "https://example.com/knight_image.jpg"
+        },
+        {
+          "name": "Barbarian",
+          "description": "Fierce warriors who channel primal rage to unleash devastating attacks.",
+          "image": "https://example.com/barbarian_image.jpg"
+        },
+        {
+          "name": "Paladin",
+          "description": "Holy champions dedicated to righteousness, wielding divine powers to smite evil.",
+          "image": "https://example.com/paladin_image.jpg"
+        }
+      ]
+    }
+  ]
+}
