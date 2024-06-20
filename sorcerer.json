@@ -1,0 +1,18 @@
+{
+  "name": "Sorcerer",
+  "lore": "Sorcerers wield innate magic, tapping into their supernatural ancestry to cast powerful spells.",
+  "subclasses": [
+    {
+      "name": "Draconic Bloodline",
+      "description": "Blessed with the blood of dragons, Sorcerers of this lineage manifest draconic traits and wield elemental powers."
+    },
+    {
+      "name": "Wild Magic",
+      "description": "Channeling chaotic energies, Wild Magic Sorcerers can produce unexpected magical effects, both beneficial and unpredictable."
+    },
+    {
+      "name": "Divine Soul",
+      "description": "With divine heritage, Divine Soul Sorcerers blend arcane magic with divine magic, capable of healing and protecting allies."
+    }
+  ]
+}

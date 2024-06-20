@@ -1,0 +1,18 @@
+{
+  "name": "Warrior",
+  "lore": "Masters of combat and tactics, skilled in a variety of weaponry and armor.",
+  "characters": [
+    {
+      "name": "Berserker",
+      "description": "Fierce warriors who enter a battle frenzy, enhancing their strength and endurance."
+    },
+    {
+      "name": "Knight",
+      "description": "Protectors of the realm, masters of mounted combat and chivalry."
+    },
+    {
+      "name": "Gladiator",
+      "description": "Combatants who thrive in arenas, skilled in both single combat and large-scale battles."
+    }
+  ]
+}

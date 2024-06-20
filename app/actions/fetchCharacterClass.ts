@@ -8,12 +8,14 @@ type CharacterClass = {
   characters: { name: string; description: string }[];
 };
 
-const fetchCharacterClass = (): CharacterClass | null => {
-  const filePath = path.join(process.cwd(), "bard.json");
+//This actions loads the corresponding subclass.json file
+const fetchCharacterClass = (componentName: string): CharacterClass | null => {
+  const fileName = `${componentName.toLowerCase()}.json`;
+  const filePath = path.join(process.cwd(), fileName);
+
   const fileContents = fs.readFileSync(filePath, "utf-8");
-  const characterClass = JSON.parse(fileContents);
-  console.log(characterClass);
-  return characterClass as CharacterClass;
+  const characterClass = JSON.parse(fileContents) as CharacterClass;
+  return characterClass;
 };
 
 export default fetchCharacterClass;

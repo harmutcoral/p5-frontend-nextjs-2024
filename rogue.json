@@ -1,0 +1,18 @@
+{
+  "name": "Rogue",
+  "lore": "Masters of stealth and cunning, Rogues excel in the arts of deception and precision.",
+  "subclasses": [
+    {
+      "name": "Assassin",
+      "description": "Masters of infiltration and lethal strikes, Assassins eliminate targets swiftly and silently."
+    },
+    {
+      "name": "Thief",
+      "description": "Experts in stealth and agility, Thieves excel in acquiring and utilizing others' possessions."
+    },
+    {
+      "name": "Arcane Trickster",
+      "description": "Blending magic with trickery, Arcane Tricksters wield spells to befuddle and deceive their enemies."
+    }
+  ]
+}

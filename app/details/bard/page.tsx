@@ -17,7 +17,7 @@ export default function BardPage() {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const data = await fetchCharacterClass();
+        const data = await fetchCharacterClass("bard");
         setBardData(data);
         setLoading(false);
       } catch (error) {
@@ -30,15 +30,15 @@ export default function BardPage() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>; // Handle loading state
+    return <div>Loading...</div>;
   }
 
   if (error) {
-    return <div>Error: {error}</div>; // Handle error state
+    return <div>Error: {error}</div>;
   }
 
   if (!bardData) {
-    return <div>No data available</div>; // Handle initial state or null data
+    return <div>No data available</div>;
   }
 
   return (
