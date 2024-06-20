@@ -1,0 +1,18 @@
+{
+  "name": "Bard",
+  "lore": "Bards are loremasters and storytellers, combining music, magic, and knowledge to weave powerful tales and enchant audiences.",
+  "subclasses": [
+    {
+      "name": "Minstrel",
+      "description": "Masters of music and magic, capable of enchanting audiences with their melodic performances. Minstrels often travel far and wide, spreading tales of heroism and romance."
+    },
+    {
+      "name": "Skald",
+      "description": "Warriors who combine the power of their voices with martial prowess. Skalds inspire their allies in battle through epic recitations and battle chants, bolstering their courage and strength."
+    },
+    {
+      "name": "Loremaster",
+      "description": "Scholars and historians who use their knowledge to unravel mysteries and uncover ancient secrets. Loremasters are adept at deciphering ancient texts and understanding the arcane symbolism hidden within."
+    }
+  ]
+}
