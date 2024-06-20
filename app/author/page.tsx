@@ -1,3 +1,11 @@
+import { notFound } from "next/navigation";
+
 export default function Page() {
-  return <h1>Hello, this is a NextJS Page!</h1>;
+  //Here we are simulating a condition to trigger the not-found.tsx
+  const condition = true;
+  if (condition) {
+    notFound();
+  }
+
+  return <h1>We should not see this in the browser :P</h1>;
 }

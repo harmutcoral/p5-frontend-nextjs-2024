@@ -11,7 +11,7 @@ export default function NotFound() {
       )}
     >
       <h1 className="text-7xl text-stone-500">404</h1>
-      <p>Page not foundddd</p>
+      <p>This page is still not developed!</p>
     </main>
   );
 }
