@@ -1,18 +1,22 @@
 {
   "name": "Rogue",
-  "lore": "Masters of stealth and cunning, Rogues excel in the arts of deception and precision.",
+  "lore": "Rogues are masters of stealth, cunning, and agility, often operating in the shadows of society. They are skilled at uncovering secrets, infiltrating high-security areas, and executing precision strikes.",
   "subclasses": [
     {
       "name": "Assassin",
-      "description": "Masters of infiltration and lethal strikes, Assassins eliminate targets swiftly and silently."
+      "description": "Masters of infiltration and lethal strikes, Assassins specialize in eliminating high-profile targets with deadly precision. They excel in planning ambushes and using poisons and traps."
     },
     {
       "name": "Thief",
-      "description": "Experts in stealth and agility, Thieves excel in acquiring and utilizing others' possessions."
+      "description": "Experts in stealth and agility, Thieves excel in acquiring and utilizing others' possessions. They are skilled pickpockets, lockpickers, and cat burglars, often finding themselves on the wrong side of the law."
     },
     {
       "name": "Arcane Trickster",
-      "description": "Blending magic with trickery, Arcane Tricksters wield spells to befuddle and deceive their enemies."
+      "description": "Blending magic with trickery, Arcane Tricksters use illusion and enchantment spells to deceive their enemies. They can pick pockets from a distance with mage hand and use spells to distract and misdirect foes."
+    },
+    {
+      "name": "Swashbuckler",
+      "description": "Dashing and charismatic duelists, Swashbucklers are masters of swordplay and charm. They thrive in one-on-one combat, using agility and wit to outmaneuver opponents and win over crowds."
     }
   ]
 }

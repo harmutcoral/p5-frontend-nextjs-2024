@@ -1,10 +1,10 @@
 {
   "name": "Bard",
-  "lore": "Bards are loremasters and storytellers, combining music, magic, and knowledge to weave powerful tales and enchant audiences.",
+  "lore": "Bards are charismatic loremasters and storytellers, using their music, magic, and knowledge to inspire, manipulate emotions, and unravel mysteries. They roam the world seeking new tales to tell and ancient truths to uncover.",
   "subclasses": [
     {
       "name": "Minstrel",
-      "description": "Masters of music and magic, capable of enchanting audiences with their melodic performances. Minstrels often travel far and wide, spreading tales of heroism and romance."
+      "description": "Masters of music and magic, Minstrels enchant audiences with melodic performances. They travel far and wide, spreading tales of heroism and romance, and using their art to uplift spirits and influence hearts."
     },
     {
       "name": "Skald",
@@ -12,7 +12,11 @@
     },
     {
       "name": "Loremaster",
-      "description": "Scholars and historians who use their knowledge to unravel mysteries and uncover ancient secrets. Loremasters are adept at deciphering ancient texts and understanding the arcane symbolism hidden within."
+      "description": "Scholars and historians who unravel mysteries and uncover ancient secrets. Loremasters decipher ancient texts and understand arcane symbolism, using their knowledge to protect ancient artifacts and uncover hidden knowledge."
+    },
+    {
+      "name": "College of Shadows",
+      "description": "Masters of deception and subterfuge, Bards of the College of Shadows specialize in espionage and manipulation. They operate in the shadows, gathering secrets and pulling strings from behind the scenes to influence powerful individuals and organizations."
     }
   ]
 }

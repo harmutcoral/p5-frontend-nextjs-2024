@@ -15,27 +15,12 @@ export default function RoguePage() {
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        setLoading(true);
-        const data = await fetchCharacterClass("rogue");
-        setRogueData(data);
-        setLoading(false);
-      } catch (error) {
-        setError("Error fetching data");
-        setLoading(false);
-      }
+      const data = await fetchCharacterClass("rogue");
+      setRogueData(data);
     };
 
     fetchData();
   }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
 
   if (!rogueData) {
     return <div>No data available</div>;
@@ -44,7 +29,7 @@ export default function RoguePage() {
   return (
     <main className="p-4">
       <h1>{rogueData.name}</h1>
-      <Card>
+      <Card className="bg-white bg-opacity-80 shadow-lg rounded-lg">
         <CardHeader>
           <CardTitle>Lore</CardTitle>
         </CardHeader>
@@ -54,12 +39,15 @@ export default function RoguePage() {
       </Card>
       <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {rogueData.subclasses.map((subclass: any, index: number) => (
-          <Card key={index}>
+          <Card
+            key={index}
+            className="bg-white bg-opacity-80 shadow-lg rounded-lg"
+          >
             <CardHeader>
               <CardTitle>{subclass.name}</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>{subclass.description}</p>
+              <p className="text-justify">{subclass.description}</p>
             </CardContent>
           </Card>
         ))}

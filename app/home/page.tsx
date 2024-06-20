@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <main className="flex-1 p-4">
       <div className="mb-4">
-        <Card>
+        <Card className="bg-white bg-opacity-80 shadow-lg rounded-lg">
           <CardHeader>
             <CardTitle>Choose your Fighter!</CardTitle>
           </CardHeader>
@@ -21,7 +21,10 @@ export default function HomePage() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {characterClasses.map((characterClass, index) => (
-          <Card key={index}>
+          <Card
+            key={index}
+            className="bg-white bg-opacity-80 shadow-lg rounded-lg"
+          >
             <Link href={`/details/${characterClass.name.toLowerCase()}`}>
               <div className="flex flex-col items-center space-y-2 cursor-pointer p-4">
                 <CardHeader>

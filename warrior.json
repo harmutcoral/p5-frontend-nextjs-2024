@@ -1,18 +1,22 @@
 {
   "name": "Warrior",
-  "lore": "Masters of combat and tactics, skilled in a variety of weaponry and armor.",
-  "characters": [
+  "lore": "Warriors are disciplined combatants, mastering a variety of weaponry and armor to protect their allies and uphold justice. They come from diverse backgrounds, from noble knights to rugged mercenaries, all dedicated to their chosen path of martial prowess.",
+  "subclasses": [
     {
       "name": "Berserker",
-      "description": "Fierce warriors who enter a battle frenzy, enhancing their strength and endurance."
+      "description": "Fierce warriors who enter a battle frenzy, enhancing their strength and endurance. Berserkers fight with reckless abandon, shrugging off wounds and striking fear into their enemies."
     },
     {
       "name": "Knight",
-      "description": "Protectors of the realm, masters of mounted combat and chivalry."
+      "description": "Protectors of the realm, Knights are masters of mounted combat and chivalry. They uphold honor and duty, wielding lance and sword from horseback in the defense of their kingdom."
     },
     {
       "name": "Gladiator",
-      "description": "Combatants who thrive in arenas, skilled in both single combat and large-scale battles."
+      "description": "Combatants who thrive in arenas, Gladiators are skilled in both single combat and large-scale battles. They entertain crowds with their prowess and cunning, often winning freedom or fame through their victories."
+    },
+    {
+      "name": "Samurai",
+      "description": "Masters of Bushido, Samurai are disciplined warriors who follow a strict code of honor. They excel in martial arts and are known for their deadly precision and unwavering resolve, serving as loyal protectors and advisors."
     }
   ]
 }

@@ -1,18 +1,22 @@
 {
   "name": "Sorcerer",
-  "lore": "Sorcerers wield innate magic, tapping into their supernatural ancestry to cast powerful spells.",
+  "lore": "Sorcerers are individuals born with innate magical abilities, drawing power from their ancestry or unique cosmic events. They wield raw magical energy with instinctive talent, often pursuing personal quests or uncovering ancient mysteries.",
   "subclasses": [
     {
       "name": "Draconic Bloodline",
-      "description": "Blessed with the blood of dragons, Sorcerers of this lineage manifest draconic traits and wield elemental powers."
+      "description": "Blessed with the blood of dragons, Sorcerers of this lineage manifest draconic traits and wield elemental powers. They can breathe fire, summon wings for flight, and resist magical effects with their draconic resilience."
     },
     {
       "name": "Wild Magic",
-      "description": "Channeling chaotic energies, Wild Magic Sorcerers can produce unexpected magical effects, both beneficial and unpredictable."
+      "description": "Channeling chaotic energies, Wild Magic Sorcerers can produce unexpected magical effects, both beneficial and unpredictable. They tap into the fabric of reality itself, causing surges of magic that can alter fate."
     },
     {
       "name": "Divine Soul",
-      "description": "With divine heritage, Divine Soul Sorcerers blend arcane magic with divine magic, capable of healing and protecting allies."
+      "description": "With divine heritage, Divine Soul Sorcerers blend arcane magic with divine magic, capable of healing and protecting allies. They are conduits of celestial energy, channeling the power of gods and angels in their spells."
+    },
+    {
+      "name": "Storm Sorcery",
+      "description": "Embodying the fury of the storm, Storm Sorcerers manipulate lightning and wind. They can call down thunderbolts, create gusts of wind to push enemies back, and harness the power of thunderstorms to enhance their spells."
     }
   ]
 }
