@@ -10,32 +10,15 @@ import fetchCharacterClass from "../../actions/fetchCharacterClass";
 
 export default function BardPage() {
   const [bardData, setBardData] = useState<any | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
-      try {
-        setLoading(true);
-        const data = await fetchCharacterClass("bard");
-        setBardData(data);
-        setLoading(false);
-      } catch (error) {
-        setError("Error fetching data");
-        setLoading(false);
-      }
+      const data = await fetchCharacterClass("bard");
+      setBardData(data);
     };
 
     fetchData();
   }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>Error: {error}</div>;
-  }
 
   if (!bardData) {
     return <div>No data available</div>;

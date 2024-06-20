@@ -22,7 +22,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
       <Header />
-      <main className={cn("min-h-screen flex flex-col bg-purple-200")}>
+      <main
+        className={cn("min-h-screen flex flex-col")}
+        style={{
+          backgroundImage: `linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ), url('https://wallpaper.forfun.com/fetch/ea/ea2b7fc789c4b45f30647792653499dd.jpeg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         {children}
       </main>
       <Footer />

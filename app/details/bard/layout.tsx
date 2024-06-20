@@ -32,7 +32,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta name="description" content={metadata.description} />
       </Head>
       <Header />
-      <main className={cn("min-h-screen flex flex-col bg-purple-200")}>
+      <main
+        className={cn("min-h-screen flex flex-col")}
+        style={{
+          backgroundImage: `url('https://i.pinimg.com/originals/53/08/c2/5308c22265f4e428fd2bdf46c88f2dc8.png')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         {children}
       </main>
       <Footer />

@@ -33,7 +33,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta name="description" content={metadata.description} />
       </Head>
       <Header />
-      <main className={cn("min-h-screen flex flex-col bg-purple-200")}>
+      <main
+        className={cn("min-h-screen flex flex-col")}
+        style={{
+          backgroundImage: `url('https://cdna.artstation.com/p/assets/images/images/028/288/940/large/diego-herrera-sosa-previo-17-final.jpg?1594049355')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         {children}
       </main>
       <Footer />

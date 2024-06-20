@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer
       className={cn(
-        "bg-purple-800 text-white h-16 text-xs text-center flex items-center justify-center",
+        "bg-red-900 text-white h-16 text-xs text-center flex items-center justify-center",
         "pt-1 opacity-80",
         "absolute bottom-0 w-full"
       )}
