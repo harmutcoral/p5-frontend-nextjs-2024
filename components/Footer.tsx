@@ -1,12 +1,13 @@
-import { cn } from "../lib/utils";
 import Link from "next/link";
+import { cn } from "../lib/utils";
 
 export default function Footer() {
   return (
     <footer
       className={cn(
         "bg-purple-800 text-white h-16 text-xs text-center flex items-center justify-center",
-        "pt-1 opacity-80"
+        "pt-1 opacity-80",
+        "absolute bottom-0 w-full"
       )}
     >
       <div className="flex flex-col items-center space-y-1">
