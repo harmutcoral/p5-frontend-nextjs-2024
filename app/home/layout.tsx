@@ -20,7 +20,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head></head>
-      <body className={cn(inter.className, "min-h-screen flex flex-col")}>
+      <body
+        className={cn(
+          inter.className,
+          "min-h-screen flex flex-col bg-purple-200"
+        )}
+      >
         <Header />
         <main className="flex-1 p-4 flex flex-col">{children}</main>
         <Footer />

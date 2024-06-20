@@ -1,50 +1,50 @@
 import Link from "next/link";
 import data from "../../characters.json";
-import { Button } from "../../components/ui/button";
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
 } from "../../components/ui/card";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 
 export default function HomePage() {
   const characterClasses = data.characterClasses;
 
   return (
-    <main className="p-4">
-      <Card>
-        <CardHeader>
-          <CardTitle>Character Classes</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {characterClasses.map((characterClass, index) => (
-              <Link
-                key={index}
-                href={`/details/${characterClass.name.toLowerCase()}`}
-              >
-                <div className="flex flex-col items-center space-y-2 cursor-pointer">
-                  <span className="text-blue-500 hover:underline p-4">
-                    {characterClass.name}
-                  </span>
-                  <img
-                    src={characterClass.image}
-                    alt={characterClass.name}
-                    className="w-32 h-100 object-contain"
-                  />
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div className="mt-4 flex space-x-2">
-            <Button className="flex p-4">Test</Button>
-            <Button variant="secondary">Another test</Button>
-          </div>
-        </CardContent>
-      </Card>
+    <main className="flex-1 p-4 bg-purple-200">
+      <div className="mb-4">
+        <Card>
+          <CardHeader>
+            <CardTitle>Choose your Fighter!</CardTitle>
+          </CardHeader>
+        </Card>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {characterClasses.map((characterClass, index) => (
+          <Card key={index}>
+            <Link href={`/details/${characterClass.name.toLowerCase()}`}>
+              <div className="flex flex-col items-center space-y-2 cursor-pointer p-4">
+                <CardHeader>
+                  <CardTitle>{characterClass.name}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex items-center justify-center">
+                    <img
+                      src={characterClass.image}
+                      alt={characterClass.name}
+                      className="w-32 h-64 object-contain"
+                    />
+                  </div>
+                  <br />
+                  <p className="mt-2 text-sm text-justify">
+                    {characterClass.lore}
+                  </p>
+                </CardContent>
+              </div>
+            </Link>
+          </Card>
+        ))}
+      </div>
     </main>
   );
 }
