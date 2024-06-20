@@ -11,7 +11,7 @@ export default function HomePage() {
   const characterClasses = data.characterClasses;
 
   return (
-    <main className="flex-1 p-4 bg-purple-200">
+    <main className="flex-1 p-4">
       <div className="mb-4">
         <Card>
           <CardHeader>
