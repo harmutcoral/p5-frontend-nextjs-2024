@@ -7,6 +7,8 @@ import {
   CardHeader,
   CardTitle,
 } from "../../components/ui/card";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 export default function HomePage() {
   const characterClasses = data.characterClasses;
