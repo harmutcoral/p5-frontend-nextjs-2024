@@ -8,12 +8,14 @@ import {
 } from "../../../components/ui/card";
 import fetchCharacterClass from "../../actions/fetchCharacterClass";
 import editCharacterClass from "../../actions/editLore";
+import Loading from "./loading";
 import { Button } from "../../../components/ui/button";
 
 export default function RoguePage() {
   const [rogueData, setRogueData] = useState<any | null>(null);
   const [editMode, setEditMode] = useState<boolean>(false);
   const [newLore, setNewLore] = useState<string>("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,6 +25,12 @@ export default function RoguePage() {
     };
 
     fetchData();
+
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const handleEditClick = () => {
@@ -42,6 +50,10 @@ export default function RoguePage() {
       setEditMode(false);
     }
   };
+
+  if (loading) {
+    return <Loading />;
+  }
 
   if (!rogueData) {
     return <div>No data available</div>;

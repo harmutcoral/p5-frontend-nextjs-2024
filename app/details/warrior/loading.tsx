@@ -21,8 +21,8 @@ export default function Loading() {
 
   return (
     <main className="p-6 flex flex-wrap gap-2 text-gray-100 bg-red-900">
-      Loading bard data...
-      <Progress value={progress} className="h-[20px] rounded-full" />
+      Loading warrior data...
+      <Progress value={progress} className="h-[20px] rounded-full " />
     </main>
   );
 }

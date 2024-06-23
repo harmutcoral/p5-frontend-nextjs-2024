@@ -8,12 +8,14 @@ import {
 } from "../../../components/ui/card";
 import fetchCharacterClass from "../../actions/fetchCharacterClass";
 import editCharacterClass from "../../actions/editLore";
+import Loading from "./loading";
 import { Button } from "../../../components/ui/button";
 
 export default function SorcererPage() {
   const [sorcererData, setSorcererData] = useState<any | null>(null);
   const [editMode, setEditMode] = useState<boolean>(false);
   const [newLore, setNewLore] = useState<string>("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,7 +23,14 @@ export default function SorcererPage() {
       setSorcererData(data);
       setNewLore(data?.lore || "");
     };
+
     fetchData();
+
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const handleEditClick = () => {
@@ -41,6 +50,10 @@ export default function SorcererPage() {
       setEditMode(false);
     }
   };
+
+  if (loading) {
+    return <Loading />;
+  }
 
   if (!sorcererData) {
     return <div>No data available</div>;
